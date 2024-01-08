@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos Yerlion, una agencia de viajes turisticos que busca brindar los mejores servicios a través de viajes saludables, autenticos y sostenibles al mas bajo costo con proveedores confiables y responsables. Queremos lograr que nuestros clientes construyan y vivan experiencias inolvidables.">
+    <title>Agencia de viajes - Yerlion</title>
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/destacados.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <div id="loader" class="container_loader">
+        <div id="loader_spinner" class="loader"></div>
+    </div>
+
+    <header id="header" class="header">
+        <div class="header_logo">
+            <a href="./index.html">
+                <img class="logo" src="./assets/logo-sinfondo.png" alt="logo Yerlion">
+                <h4 class="logo_text">YERLION</h4>
+            </a>
+        </div>
+        <nav class="header_nav">
+            <ul class="menu">
+                <li>
+                    <a class="menu_link" href="">Inicio</a>
+                </li>
+                <li>
+                    <a class="menu_link" href="">Paquetes</a>
+                </li>
+                <li>
+                    <a class="menu_link" href="">Nosotros</a>
+                </li>
+                <li>
+                    <a class="menu_link" href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header_contact">
+            <a class="whatsapp" href="https://wa.me/+525590204908" target="_blank" title="Chatear por Whatsapp">
+                <i class="bi bi-whatsapp whatsapp_icon"></i>
+            </a>
+        </div>
+
+        <i id="openButton" class="bi bi-list menu_button"></i>
+        
+        <nav id="navResponsive" class="header_nav_responsive">
+            <i id="closeButton" class="bi bi-x-lg menu_button_close"></i>
+            <ul class="menu_responsive">
+                <li>
+                    <a class="menu_resp_link" href="">Inicio</a>
+                </li>
+                <li>
+                    <a class="menu_resp_link" href="">Paquetes</a>
+                </li>
+                <li>
+                    <a class="menu_resp_link" href="">Nosotros</a>
+                </li>
+                <li>
+                    <a class="menu_resp_link" href="">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="banner" class="banner">
+        <div class="banner_background">
+            <div class="banner_content">
+                <h1 class="title">Tu aventura comienza aquí !</h1>
+                <h2 class="subtitle">"Explora destinos impresionantes y descubrí la magia de los cruceros"</h2>
+            </div>
+            <div class="banner_search">
+                <!-- <a class="link" href="">¡Quiero mi viaje!</a> -->
+                <h3>Viví tu experiencia!</h3>
+                <div class="search_form">
+                    <form class="form" action="" >
+                        <div class="form_container">
+                            <div class="group_input">
+                                <label for="txtMes">¿CUANDO QUIERES IR?</label>
+                                <input id="txtMes" type="month">
+                            </div>
+                            <div class="group_input">
+                                <label for="txtDestino">¿DONDE QUIERES IR?</label>
+                                <input list="cbDestino" id="txtDestino">
+                                <datalist id="cbDestino" >
+                                    <option value="Destino 1"></option>
+                                    <option value="Destino 2"></option>
+                                    <option value="Destino 3"></option>
+                                    <option value="Destino 4"></option>
+                                </datalist>
+                            </div>
+                            <div class="group_input">
+                                <label for="txtCantHuespedes">HUESPEDES</label>
+                                <input list="cbCantHuespedes" id="txtCantHuespedes">
+                                <datalist id="cbCantHuespedes" >
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                    <option value="4"></option>
+                                    <option value="6"></option>
+                                    <option value="7"></option>
+                                    <option value="8"></option>
+                                    <option value="9"></option>
+                                    <option value="10"></option>
+                                </datalist>
+                            </div>
+                        </div>
+                        <div class="form_button">
+                            <button class="button">
+                                <i class="bi bi-search"></i>
+                                Buscar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destacados">
+        <h2 class="destacados_title">¡OFERTAS DESTACADAS!</h2>
+        <div class="container_destacados">
+            <div class="slider">
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./assets/paquete1.jpg" alt="">
+                        <span class="etiqueta">SALE!</span>
+                    </div>
+                    <div class="card_info">
+                        <h3 class="">Paquete 1</h3>
+                        <div class="info_detalle">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
+                            <a href="">¡Comprar!</a>
+                            <span class="precio"><span class="precio_ant">us$520</span>us$459</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./assets/paquete2.jpg" alt="">
+                        <span class="etiqueta">SALE!</span>
+                    </div>
+                    <div class="card_info">
+                        <h3 class="">Paquete 2</h3>
+                        <div class="info_detalle">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
+                            <a href="">¡Comprar!</a>
+                            <span class="precio"><span class="precio_ant">us$389</span>us$320</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <img src="./assets/paquete3.jpg" alt="">
+                        <span class="etiqueta">SALE!</span>
+                    </div>
+                    <div class="card_info">
+                        <h3 class="">Paquete 3</h3>
+                        <div class="info_detalle">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
+                            <a href="">¡Comprar!</a>
+                            <span class="precio"><span class="precio_ant">us$965</span>us$825</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <a class="link_paquetes" href="">Ver todos los paquetes <i class="bi bi-arrow-right-short"></i></a>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container_footer">
+            <div class="info_contacto">
+                <div class="contacto">
+                    <h4>CONTACTO</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            37 SUPERMANZANA 75, BENITO JUAREZ, Mexico
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            5590204908
+                        </li>
+                    </ul>
+                </div>
+                <div class="redes">
+                    <h4>REDES</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-facebook"></i>
+                        </li>
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="footer_nav">
+                <ul class="menu_footer">
+                    <li>Inicio</li>
+                    <li>Paquetes</li>
+                    <li>¿Quiénes Somos?</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    
+    <script src="./js/loader.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/banner.js"></script>
+</body>
+</html>

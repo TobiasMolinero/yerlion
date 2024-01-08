@@ -1,0 +1,6 @@
+Colores
+
+Naranja: #f68712
+Azul: #2c3892
+Azul 2: #24265d
+Celeste: #51ade5

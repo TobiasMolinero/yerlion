@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+:root{
+    scroll-behavior: smooth;
+    font-size: 10px;
+
+    --montserrat: 'Montserrat', sans-serif;
+    --fjalla: 'Fjalla One', sans-serif;
+
+    /* NARANJA */
+    --orange-50: #fff9ed;
+    --orange-100: #fef1d6;
+    --orange-200: #fddfab;
+    --orange-300: #fbc876;
+    --orange-400: #f9a53e;
+    --orange-500: #f68712;
+    --orange-600: #e76f0f;
+    --orange-700: #c0540e;
+    --orange-800: #984314;
+    --orange-900: #7b3913;
+    --orange-950: #421a08;
+
+    /* AZUL/CELESTE */
+    --blue-50: #f2f8fd;
+    --blue-100: #e3effb;
+    --blue-200: #c1e0f6;
+    --blue-300: #8ac7ef;
+    --blue-400: #51ade5;
+    --blue-500: #2590d2;
+    --blue-600: #1673b3;
+    --blue-700: #135b91;
+    --blue-800: #144e78;
+    --blue-900: #164164;
+    --blue-950: #0f2a42;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--montserrat);
+}
+
+body{
+    background: var(--orange-100);
+}

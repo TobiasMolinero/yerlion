@@ -1,0 +1,45 @@
+@media screen and (min-width: 1024px){
+    .container_loader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: var(--orange-50);
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: 1s ease-in-out;
+    }
+    
+    .loader {
+        width: 50px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 8px solid lightblue;
+        border-right-color: orange;
+        animation: l2 1s infinite linear;
+      }
+      @keyframes l2 {to{transform: rotate(1turn)}}
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and  (max-width: 1023px) {
+    .loader{
+        display: none;
+    }
+}
+
+
+/* SMARTPHONE */
+@media screen and (max-width: 767px){
+    .loader{
+        display: none;
+    }
+}
+
+
+

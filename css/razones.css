@@ -1,0 +1,200 @@
+@media screen and (min-width: 1024px){
+    .elegirnos h2{
+        font-family: var(--fjalla);
+        font-size:3.5rem;
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 40px;
+    }
+
+    .razones{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    .razon{
+        background: #fff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        width: 275px;
+        height: 180px;
+        padding: 30px 15px;
+        box-shadow: 1px 1px 3px #27272752;
+
+    }
+
+    .razon .icono{
+        background: var(--orange-600);
+        width: 80px;
+        height: fit-content;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .razon .icono img{
+        width: 35px;
+    }
+
+    .razon h4{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .razon p{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+
+}
+
+/* TABLET */
+@media screen and (min-width: 767px) and  (max-width: 1023px) {
+    .elegirnos h2{
+        font-family: var(--fjalla);
+        font-size:3.5rem;
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 40px;
+    }
+
+    .razones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    .razon{
+        background: #fff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        width: 300px;
+        height: 200px;
+        padding: 30px 15px;
+        box-shadow: 1px 1px 3px #27272752;
+    }
+
+    .razon .icono{
+        background: var(--orange-600);
+        width: 80px;
+        height: fit-content;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .razon .icono img{
+        width: 35px;
+    }
+
+    .razon h4{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .razon p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
+
+
+/* SMARTPHONE */
+@media screen and (max-width: 767px){
+    .elegirnos h2{
+        font-family: var(--fjalla);
+        font-size:3.5rem;
+        text-align: center;
+        padding: 20px 0;
+        margin-bottom: 40px;
+    }
+
+    .razones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    .razon{
+        background: #fff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        width: 300px;
+        height: 200px;
+        padding: 30px 15px;
+        box-shadow: 1px 1px 3px #27272752;
+    }
+
+    .razon .icono{
+        background: var(--orange-600);
+        width: 80px;
+        height: fit-content;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .razon .icono img{
+        width: 35px;
+    }
+
+    .razon h4{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .razon p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 380px){
+    .razon{
+        background: #fff;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        width: 200px;
+        height: 200px;
+        padding: 30px 15px;
+        box-shadow: 1px 1px 3px #27272752;
+    }
+}
+
+
+

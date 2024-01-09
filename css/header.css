@@ -133,6 +133,106 @@
 
 /* TABLET */
 @media screen and (min-width: 767px) and  (max-width: 1023px) {
+    
+    .header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 5px 20px;
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 0 7px #0a0a0a;
+        background: var(--blue-900);
+        gap: 10px;
+        transition: 0.5s;
+        z-index: 9;
+    }
+
+    /* LOGO */
+
+    .header .logo{
+        width: 70px;
+    }
+    
+    .header_logo a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        color: var(--orange-600);
+    }
+    
+    .header_sticked .logo_text{
+        font-size: 3rem;
+    }
+    
+    .logo_text{
+        font-family: var(--fjalla);
+        font-size: 3.4rem;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-shadow: 0 0 10px #0a0a0a;
+    }
+
+    .menu_button{
+        display: flex;
+        align-items: center;
+        font-size: 4rem;
+        color: var(--orange-600);
+    }
+
+    .menu_button_close{
+        padding: 10px;
+        font-size: 2.5rem;
+        text-align: right;
+    }
+
+
+    .header_nav_responsive{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+        padding: 0;
+        background: var(--orange-600);
+        height: 0;
+        overflow: hidden;
+        z-index: 9;
+        transition: 0.3s;
+    }
+
+    .nav_open{
+        height: 100vh;
+        padding: 10px 15px;
+        transition: 0.3s;
+    }
+
+    .header_nav_responsive .menu_responsive{
+        list-style: none;
+    }
+
+    .header_nav_responsive .menu_responsive li{
+        text-align: center;
+        padding: 3px 0;
+    }
+
+    .menu_responsive .menu_resp_link{
+        font-size: 2rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--blue-950);
+    }
+
+
+    .header_nav, .header_contact{
+        display: none;
+    }
 }
 
 

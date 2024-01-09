@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Somos Yerlion, una agencia de viajes turisticos que busca brindar los mejores servicios a través de viajes saludables, autenticos y sostenibles al mas bajo costo con proveedores confiables y responsables. Queremos lograr que nuestros clientes construyan y vivan experiencias inolvidables.">
+    <meta name="description" content="Somos una agencia de viajes turisticos que busca brindar los mejores servicios a través de viajes saludables, autenticos y sostenibles al mas bajo costo con proveedores confiables y responsables. Queremos lograr que nuestros clientes construyan y vivan experiencias inolvidables.">
     <title>Agencia de viajes - Yerlion</title>
+
+    <link rel="icon" href="./assets/logo-sinfondo.png">
+
     <link rel="stylesheet" href="./css/root.css">
     <link rel="stylesheet" href="./css/loader.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/atajos.css">
     <link rel="stylesheet" href="./css/destacados.css">
+    <link rel="stylesheet" href="./css/razones.css">
     <link rel="stylesheet" href="./css/footer.css">
 
 
@@ -37,10 +42,10 @@
                     <a class="menu_link" href="">Paquetes</a>
                 </li>
                 <li>
-                    <a class="menu_link" href="">Nosotros</a>
+                    <a class="menu_link" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a class="menu_link" href="">Contacto</a>
+                    <a class="menu_link" href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -57,16 +62,16 @@
             <i id="closeButton" class="bi bi-x-lg menu_button_close"></i>
             <ul class="menu_responsive">
                 <li>
-                    <a class="menu_resp_link" href="">Inicio</a>
+                    <a class="menu_resp_link" href="./index.html">Inicio</a>
                 </li>
                 <li>
                     <a class="menu_resp_link" href="">Paquetes</a>
                 </li>
                 <li>
-                    <a class="menu_resp_link" href="">Nosotros</a>
+                    <a class="menu_resp_link" href="./nosotros.html">Nosotros</a>
                 </li>
                 <li>
-                    <a class="menu_resp_link" href="">Contacto</a>
+                    <a class="menu_resp_link" href="./contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -126,56 +131,115 @@
         </div>
     </section>
 
+    <section class="atajos">
+        <div class="container_atajos">
+            <a class="atajo" href="" title="cruceros">
+                <div class="atajo_crucero">
+                    <h3>CRUCEROS</h3>
+                </div>
+            </a>
+            <a class="atajo" href="" title="verano">
+                <div class="atajo_verano">
+                    <h3>VERANO</h3>
+                </div>
+            </a>
+            <a class="atajo" href="" title="hoteles">
+                <div class="atajo_hoteles">
+                    <h3>HOTELES</h3>
+                </div>
+            </a>
+            <a class="atajo" href="" title="europa">
+                <div class="atajo_europa">
+                    <h3>EUROPA</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <hr style="margin: 0px 80px;">
+
+
     <section class="destacados">
         <h2 class="destacados_title">¡OFERTAS DESTACADAS!</h2>
         <div class="container_destacados">
             <div class="slider">
                 <div class="card">
                     <div class="card_image">
-                        <img src="./assets/paquete1.jpg" alt="">
+                        <img src="./assets/paquete1.jpg" alt="servicio">
                         <span class="etiqueta">SALE!</span>
                     </div>
                     <div class="card_info">
                         <h3 class="">Paquete 1</h3>
                         <div class="info_detalle">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
-                            <a href="">¡Comprar!</a>
                             <span class="precio"><span class="precio_ant">us$520</span>us$459</span>
+                            <a href="">¡Comprar!</a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_image">
-                        <img src="./assets/paquete2.jpg" alt="">
+                        <img src="./assets/paquete2.jpg" alt="servicio">
                         <span class="etiqueta">SALE!</span>
                     </div>
                     <div class="card_info">
                         <h3 class="">Paquete 2</h3>
                         <div class="info_detalle">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
-                            <a href="">¡Comprar!</a>
                             <span class="precio"><span class="precio_ant">us$389</span>us$320</span>
+                            <a href="">¡Comprar!</a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_image">
-                        <img src="./assets/paquete3.jpg" alt="">
+                        <img src="./assets/paquete3.jpg" alt="servicio">
                         <span class="etiqueta">SALE!</span>
                     </div>
                     <div class="card_info">
                         <h3 class="">Paquete 3</h3>
                         <div class="info_detalle">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum aliquam repellat</p>
-                            <a href="">¡Comprar!</a>
                             <span class="precio"><span class="precio_ant">us$965</span>us$825</span>
+                            <a href="">¡Comprar!</a>
                         </div>
 
                     </div>
                 </div>
             </div>
 
-            <a class="link_paquetes" href="">Ver todos los paquetes <i class="bi bi-arrow-right-short"></i></a>
+            <a class="link_paquetes" href="">Ver todos los paquetes</a>
+        </div>
+    </section>
+
+    <hr style="margin: 30px 80px;">
+
+
+    <section class="elegirnos">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="razones">
+            <div class="razon">
+                <div class="icono">
+                    <img src="./assets/okey.png" alt="">
+                </div>
+                <h4>SERVICIO CALIFICADO</h4>
+                <p>Brindamos a nuestros clientes un servicio de calidad.</p>
+            </div>
+            <div class="razon">
+                <div class="icono">
+                    <img src="./assets/destinos.png" alt="">
+                </div>
+                <h4>AMPLIA VARIEDAD DE DESTINOS</h4>
+                <p>Con Yerlion, vas a encontrar tu destino perfecto entre muchas opciones.</p>
+            </div>
+            <div class="razon">
+                <div class="icono">
+                    <img src="./assets/buenos-precios.png" alt="">
+                </div>
+                <h4>MEJORES PRECIOS GARANTIZADOS</h4>
+                <p>Te garantizamos los mejores precios con la mejor calidad</p>
+            </div>
         </div>
     </section>
 
@@ -191,19 +255,14 @@
                             37 SUPERMANZANA 75, BENITO JUAREZ, Mexico
                         </li>
                         <li>
-                            <i class="bi bi-whatsapp"></i>
-                            5590204908
-                        </li>
-                    </ul>
-                </div>
-                <div class="redes">
-                    <h4>REDES</h4>
-                    <ul>
-                        <li>
-                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-envelope-fill"></i>
+                            correo@mail.com
                         </li>
                         <li>
-                            <i class="bi bi-instagram"></i>
+                            <a href="https://wa.me/+525590204908">
+                                <i class="bi bi-whatsapp"></i>
+                                5590204908
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -211,12 +270,36 @@
 
             <nav class="footer_nav">
                 <ul class="menu_footer">
-                    <li>Inicio</li>
-                    <li>Paquetes</li>
-                    <li>¿Quiénes Somos?</li>
-                    <li>Contacto</li>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="">Paquetes</a>
+                    </li>
+                    <li>
+                        <a href="./nosotros.html">¿Quiénes Somos?</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
                 </ul>
             </nav>
+
+            <div class="redes">
+                <h4>REDES</h4>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 
